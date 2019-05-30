@@ -44,17 +44,11 @@ logo.setAttribute('src', siteContent["nav"]["img-src"])
 //nav
 let aTags = document.querySelectorAll('nav a')
 
-aTags[0].setAttribute('class', '.nav-item-1');
 aTags[0].innerText = siteContent['nav']['nav-item-1'];
-aTags[1].setAttribute('class', '.nav-item-2');
 aTags[1].innerText = siteContent['nav']['nav-item-2'];
-aTags[2].setAttribute('class', '.nav-item-3');
 aTags[2].innerText = siteContent['nav']['nav-item-3'];
-aTags[3].setAttribute('class', '.nav-item-4');
 aTags[3].innerText = siteContent['nav']['nav-item-4'];
-aTags[4].setAttribute('class', '.nav-item-5');
 aTags[4].innerText = siteContent['nav']['nav-item-5'];
-aTags[5].setAttribute('class', '.nav-item-6');
 aTags[5].innerText = siteContent['nav']['nav-item-6'];
 
 aTags.forEach(link => link.style.color = 'green');
