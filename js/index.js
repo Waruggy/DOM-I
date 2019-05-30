@@ -42,7 +42,7 @@ let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
 
 //nav
-let aTags = document.querySelectorAll('a');
+let aTags = document.querySelectorAll('nav a');
 
 aTags[0].setAttribute('class', '.nav-item-1');
 aTags[0].innerText = "Services";
@@ -59,7 +59,7 @@ aTags[5].innerText = "Contact";
 
 aTags.forEach(link => link.style.color = 'green');
 
-//main header section
+//main header 
 let mainHead = document.querySelector('h1');
 mainHead.textContent = siteContent['cta']['h1'];
 
